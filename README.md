@@ -15,6 +15,7 @@ This repository holds my fork of Suckless's sent program with some patches appli
 ## Applied Patches
 
 - [progress bar](https://tools.suckless.org/sent/patches/progress-bar/)
+- [toggle mouse cursor](https://tools.suckless.org/sent/patches/toggle_cursor/)
 
 ## Dependencies
 
