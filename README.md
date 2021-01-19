@@ -18,7 +18,7 @@ This repository holds my fork of Suckless's sent program with some patches appli
 
 ## Dependencies
 
-You need Xlib and Xft to build sent and the farbfeld[0] tools installed to use
+You need Xlib and Xft to build sent and the [farbfeld](https://tools.suckless.org/farbfeld/) tools installed to use
 images in your presentations.
 
 ## Demo
