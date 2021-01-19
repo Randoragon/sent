@@ -6,6 +6,7 @@
 .Sh SYNOPSIS
 .Nm
 .Op Fl v
+.Op Fl i
 .Op Ar file
 .Sh DESCRIPTION
 .Nm
@@ -21,6 +22,8 @@ few minutes.
 .Bl -tag -width Ds
 .It Fl v
 Print version information to stdout and exit.
+.It Fl i
+Use the colors from the inverted color array.
 .El
 .Sh USAGE
 .Bl -tag -width Ds
@@ -41,6 +44,8 @@ Reload the slides. Only works on file input.
 Go to next slide, if existent.
 .It Sy Left | Backspace | h | k | Up | Prior | p
 Go to previous slide, if existent.
+.It Sy x
+Toggle mouse cursor.
 .El
 .El
 .Sh FORMAT
