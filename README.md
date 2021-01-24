@@ -24,14 +24,19 @@ This repository holds my fork of Suckless's sent program with some patches appli
 You need Xlib and Xft to build sent and the [farbfeld](https://tools.suckless.org/farbfeld/) tools installed to use
 images in your presentations.
 
-## Demo
+## Installation
 
-To get a little demo, just type
+Arch Linux users can install the `sent-randoragon-git` AUR package.
 
-	make && ./sent example
+Otherwise, simply run the following (if necessary, as root):
 
-You can navigate with the arrow keys and quit with `q`.
+    make install
 
+To get a little demo after installation, try opening the included presentation in the file "example":
+
+    sent example
+
+You can navigate with the arrow keys and quit with `q` (for all keybindings see `man sent`).
 
 ## Usage
 
