@@ -17,6 +17,7 @@ This repository holds my fork of Suckless's sent program with some patches appli
 - [progress bar](https://tools.suckless.org/sent/patches/progress-bar/)
 - [toggle mouse cursor](https://tools.suckless.org/sent/patches/toggle_cursor/)
 - [inverted colors](https://tools.suckless.org/sent/patches/inverted-colors/)
+- [toggle scm](https://tools.suckless.org/sent/patches/toggle-scm/)
 
 ## Dependencies
 
