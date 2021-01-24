@@ -654,11 +654,11 @@ toggle_scm()
         sc = drw_scm_create(d, colors, 2);
         use_inverted_colors = 0;
     } else {
+        free(sc);
         sc = drw_scm_create(d, inverted_colors, 2);
         use_inverted_colors = 1;
     }
     drw_setscheme(d, sc);
-	XSetWindowBackground(xw.dpy, xw.win, sc[ColBg].pixel);
     xdraw();
 }
 
