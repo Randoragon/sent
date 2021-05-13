@@ -26,9 +26,7 @@ images in your presentations.
 
 ## Installation
 
-Arch Linux users can install the `sent-randoragon-git` AUR package.
-
-Otherwise, simply run the following (if necessary, as root):
+Simply run the following (if necessary, as root):
 
     make install
 
