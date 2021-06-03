@@ -660,6 +660,8 @@ toggle_scm()
     }
     drw_setscheme(d, sc);
     XSetWindowBackground(xw.dpy, xw.win, sc[ColBg].pixel);
+    /* Images need to be redrawn in case they have transparency */
+    reload(NULL);
     xdraw();
 }
 
