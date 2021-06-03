@@ -659,6 +659,7 @@ toggle_scm()
         use_inverted_colors = 1;
     }
     drw_setscheme(d, sc);
+    XSetWindowBackground(xw.dpy, xw.win, sc[ColBg].pixel);
     xdraw();
 }
 
