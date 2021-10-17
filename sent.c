@@ -727,7 +727,6 @@ toggle_scm()
 	XSetWindowBackground(xw.dpy, xw.win, sc[ColBg].pixel);
 	/* Images need to be redrawn in case they have transparency */
 	reload(NULL);
-	xdraw();
 }
 
 void
@@ -735,7 +734,6 @@ toggle_aa()
 {
 	use_bilinear_scaling = !use_bilinear_scaling;
 	reload(NULL);
-	xdraw();
 }
 
 void
