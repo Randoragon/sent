@@ -57,6 +57,7 @@ static Shortcut shortcuts[] = {
     { XK_r,           reload,         {0} },
     { XK_x,           toggle_cursor,  {0} },
     { XK_i,           toggle_scm,     {0} },
+    { XK_a,           toggle_aa,      {0} },
 };
 
 static Filter filters[] = {

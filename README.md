@@ -18,6 +18,11 @@ This repository holds my fork of Suckless's sent program with some patches appli
 - [toggle mouse cursor](https://tools.suckless.org/sent/patches/toggle_cursor/)
 - [inverted colors](https://tools.suckless.org/sent/patches/inverted-colors/)
 - [toggle scm](https://tools.suckless.org/sent/patches/toggle-scm/)
+- [bilinear scaling](https://tools.suckless.org/sent/patches/bilinear_scaling/)
+
+I also coded in a function that toggles between bilinear/nearest-neighbor
+scaling for images, bound to `a`. I may make it into a patch someday, it's very
+simple, albeit slow (requires reloading the presentation file).
 
 ## Dependencies
 
