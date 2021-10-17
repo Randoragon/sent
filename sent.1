@@ -47,7 +47,10 @@ Go to previous slide, if existent.
 .It Sy x
 Toggle mouse cursor.
 .It Sy i
-Toggle colorschemes.
+Toggle colorschemes. Doesn't work on transparent images when reading from stdin
+(works fully on file input).
+.It Sy a
+Toggle nearest-neighbor/bilinear image scaling. Only works on file input.
 .El
 .El
 .Sh FORMAT
